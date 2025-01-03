@@ -1,0 +1,1 @@
+Add your browserstack `username` and `accessKey` in the `browserstack.yml` before running the project.

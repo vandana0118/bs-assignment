@@ -1,0 +1,33 @@
+userName: #<username>
+accessKey: #<access_key>
+framework: testng
+platforms:
+  - os: Windows
+    osVersion: 11
+    browserName: Chrome
+    browserVersion: latest
+  - deviceName: iPhone 14
+    osVersion: 18
+    browserName: safari
+    deviceOrientation: portrait
+  - os: Windows
+    osVersion: 11
+    browserName: Edge
+    browserVersion: latest
+  - os: OS X
+    osVersion: Big Sur
+    browserName: Chrome
+    browserVersion: latest
+  - deviceName: Samsung Galaxy S22 Ultra
+    browserName: chrome
+    osVersion: 12.0
+parallelsPerPlatform: 1
+browserstackLocal: true
+buildName: browserstackassignment build
+buildIdentifier: ${BUILD_NUMBER}
+projectName: BrowserStackAssignment
+testObservability: true
+networkLogs: true
+consoleLogs: info
+percy: false
+percyCaptureMode: auto
