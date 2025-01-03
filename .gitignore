@@ -1,3 +1,5 @@
 .idea
 logs
+!images/.gitkeep
+images
 target
